@@ -56,9 +56,9 @@ repositories {
 
 dependencies {
     implementation "com.facebook.react:react-native:${safeExtGet('reactnativeVersion', '+')}"
-    implementation 'com.github.thtruemilkcoduong:noke-mobile-library-android:3ad6349235'
+    implementation 'com.noke.nokemobilelibrary:noke-mobile-library:0.9.1'
     implementation 'com.google.code.gson:gson:2.8.5'
-    implementation "androidx.core:core-ktx:+"
+    implementation "androidx.core:core-ktx:1.7.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
